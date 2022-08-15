@@ -81,3 +81,29 @@
     
     }
 }
+@media screen and (max-width : 407px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+    }
+    .avater{
+        border: none;
+        width: 100%;
+    }
+    .avater>img{
+        width: 60%;
+        margin: 55px;
+    }
+    .counter-section{
+        width: 100%;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 0;
+    
+    }
+    #decrement{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
